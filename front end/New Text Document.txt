@@ -1,0 +1,24 @@
+_Add product
+*title
+*price
+*taxes
+*ads
+*discount
+*count
+*category
+
+_Search
+*search by title
+*search by category
+
+_Update
+*title
+*price
+*taxes
+*ads
+*discount
+*category
+
+_Delete
+
+_DeleteAll

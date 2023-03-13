@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(JosefinSans-VariableFont_wght.ttf);
+}
+
+:root {
+    --bg-input: #262523;
+    --bg-btn: #A8F25E;
+}
+
+body {
+    background-color: black;
+    color: #F2F2F0;
+    font-family: myFont;
+}
+
+.cruds-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    background-color: var(--bg-input);
+    color: #fff;
+    margin: 3px 0;
+    padding: 10px 1px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+input:focus {
+    background-color: transparent;
+    outline: none;
+}
+
+.price-input input {
+    width: 20%;
+}
+
+.total {
+    background-color: black;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px 1px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: var(--bg-btn);
+    color: black;
+    font-weight: bold;
+    font-family: myFont;
+}
+
+.btn {
+    transition: letter-spacing 1s, background-color 3s;
+}
+
+.btn:hover {
+    background-color: #6C8C27;
+    letter-spacing: 4px;
+}
+
+.btn-search button {
+    width: 48%;
+}
+
+.btn-search {
+    display: flex;
+    justify-content: space-between;
+}
+
+table {
+    width: 100%;
+    padding: 10px;
+
+}
+
+tbody {
+    text-align: center;
+
+}
+
+.btn-upd {
+    background-color: var(--bg-btn);
+    border-radius: 20px;
+    transition: background-color 2s;
+}
+
+.btn-upd:hover {
+    background-color: #F2E205;
+}
+
+.btn-del {
+    background-color: var(--bg-btn);
+    border-radius: 20px;
+    transition: background-color 2s;
+}
+
+.btn-del:hover {
+    background-color: #F20F38;
+}
+
+#deleteAll {
+    margin: 20px 0;
+}
+
+.bg-update {
+    background-color: #F2E205;
+}
+
+.bg-update:hover {
+    background-color: #F2E205;
+}
+
+.error {
+    text-align: center;
+    background-color: #f44336;
+    color: #730E16;
+    border-radius: 10px;
+    margin: 5px 0;
+    font-size: 1.5rem;
+}
+
+.d-none {
+    display: none;
+}
+
+.d-block {
+    display: block;
+}
